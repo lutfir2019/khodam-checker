@@ -106,7 +106,7 @@ export default function Home() {
           </button>
         </form>
 
-        {dataKhodam?.id && (
+        {dataKhodam && (
           <div className="p-5">
             <div
               aria-label="card-item-v3"
@@ -115,7 +115,7 @@ export default function Home() {
               <div className="relative flex-shrink-0 mb-5 h-[250px]">
                 <img
                   src={`https://picsum.photos/id/${dataKhodam.id}/200/300`}
-                  alt=""
+                  alt={dataKhodam.name}
                   className="object-cover w-full h-full rounded-lg"
                 />
               </div>
