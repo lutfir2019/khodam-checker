@@ -3,6 +3,7 @@ import { Roboto } from "next/font/google";
 import "./globals.css";
 import LoadingPage from "@/components/global/modal/loadingPage";
 import NotificationPage from "@/components/global/modal/notif";
+import { Analytics } from "@vercel/analytics/react";
 
 const roboto = Roboto({ subsets: ["latin"], weight: "400" });
 export const metadata: Metadata = {
@@ -23,6 +24,7 @@ export default function RootLayout({ children }: Readonly<Root>) {
       </head>
       <body className={roboto.className}>
         {children}
+        <Analytics />
         <LoadingPage />
         <NotificationPage />
       </body>
