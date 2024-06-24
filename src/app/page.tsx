@@ -110,7 +110,7 @@ export default function Home() {
           <div className="p-5">
             <div
               aria-label="card-item-v3"
-              className="flex flex-col w-[400px] rounded-xl bg-white border border-gray-100 p-5"
+              className="flex flex-col w-[300px] lg:w-[400px] rounded-xl bg-white border border-gray-100 p-5"
             >
               <div className="relative flex-shrink-0 mb-5 h-[250px]">
                 <img

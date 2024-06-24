@@ -18,12 +18,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
@@ -31,21 +28,27 @@ body {
     text-wrap: balance;
   }
 }
+
 .typing-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 5vh;
-  font-size: 1.25rem;
+  min-height: 10vh;
+  /* Tinggi minimum agar konten tidak terlalu kecil */
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  /* Ukuran font responsif */
   font-family: 'Courier New', Courier, monospace;
   overflow: hidden;
+  padding: 2vh 0;
+  /* Padding atas dan bawah untuk memberikan ruang */
 }
 
 .typing-text {
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 2px solid;
+  border-right: 2px solid transparent;
+  /* Awalnya tidak ada border */
   animation: blink-caret 0.75s step-end infinite;
 }
 
@@ -53,10 +56,18 @@ body {
 
   from,
   to {
-      border-color: transparent;
+    border-color: transparent;
   }
 
   50% {
-      border-color: black;
+    border-color: black;
+  }
+}
+
+/* Media query untuk layar kecil */
+@media (max-width: 768px) {
+  .typing-container {
+    font-size: clamp(0.75rem, 4vw, 1rem);
+    /* Penyesuaian font size untuk layar kecil */
   }
 }
