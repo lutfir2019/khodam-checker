@@ -31,3 +31,32 @@ body {
     text-wrap: balance;
   }
 }
+.typing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  font-size: 1.25rem;
+  font-family: 'Courier New', Courier, monospace;
+  overflow: hidden;
+}
+
+.typing-text {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid;
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+
+  from,
+  to {
+      border-color: transparent;
+  }
+
+  50% {
+      border-color: black;
+  }
+}

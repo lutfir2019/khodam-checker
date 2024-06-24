@@ -1,0 +1,682 @@
+[
+    {
+        "id": 1,
+        "name": "Khodam Api",
+        "power": "Pengendalian Api",
+        "element": "Api",
+        "origin": "Gunung Berapi",
+        "description": "Khodam yang memiliki kekuatan untuk mengendalikan dan menguasai elemen api. Biasanya ditemukan di sekitar gunung berapi atau tempat dengan aktivitas vulkanik tinggi."
+    },
+    {
+        "id": 2,
+        "name": "Khodam Air",
+        "power": "Pengendalian Air",
+        "element": "Air",
+        "origin": "Laut",
+        "description": "Khodam yang memiliki kemampuan untuk mengendalikan elemen air. Biasanya ditemukan di sekitar laut, danau, atau sungai besar."
+    },
+    {
+        "id": 3,
+        "name": "Khodam Angin",
+        "power": "Pengendalian Angin",
+        "element": "Angin",
+        "origin": "Pegunungan",
+        "description": "Khodam yang memiliki kekuatan untuk mengendalikan elemen angin. Biasanya ditemukan di daerah pegunungan atau tempat-tempat dengan angin kencang."
+    },
+    {
+        "id": 4,
+        "name": "Khodam Tanah",
+        "power": "Pengendalian Tanah",
+        "element": "Tanah",
+        "origin": "Hutan",
+        "description": "Khodam yang memiliki kemampuan untuk mengendalikan elemen tanah. Biasanya ditemukan di hutan-hutan atau daerah pedesaan."
+    },
+    {
+        "id": 5,
+        "name": "Khodam Petir",
+        "power": "Pengendalian Petir",
+        "element": "Petir",
+        "origin": "Gunung",
+        "description": "Khodam yang memiliki kekuatan untuk mengendalikan elemen petir. Biasanya ditemukan di daerah pegunungan yang sering terkena badai petir."
+    },
+    {
+        "id": 6,
+        "name": "Khodam Bayangan",
+        "power": "Manipulasi Bayangan",
+        "element": "Bayangan",
+        "origin": "Gua",
+        "description": "Khodam yang memiliki kemampuan untuk memanipulasi bayangan. Biasanya ditemukan di gua-gua atau tempat-tempat yang gelap."
+    },
+    {
+        "id": 7,
+        "name": "Khodam Cahaya",
+        "power": "Manipulasi Cahaya",
+        "element": "Cahaya",
+        "origin": "Tempat Suci",
+        "description": "Khodam yang memiliki kekuatan untuk mengendalikan elemen cahaya. Biasanya ditemukan di tempat-tempat suci atau tempat dengan energi positif tinggi."
+    },
+    {
+        "id": 8,
+        "name": "Khodam Bumi",
+        "power": "Kekuatan Bumi",
+        "element": "Bumi",
+        "origin": "Dataran Tinggi",
+        "description": "Khodam yang memiliki kemampuan untuk mengendalikan elemen bumi. Biasanya ditemukan di dataran tinggi atau daerah pegunungan."
+    },
+    {
+        "id": 9,
+        "name": "Khodam Hutan",
+        "power": "Pengendalian Flora",
+        "element": "Flora",
+        "origin": "Hutan Belantara",
+        "description": "Khodam yang memiliki kekuatan untuk mengendalikan tumbuh-tumbuhan. Biasanya ditemukan di hutan belantara atau daerah yang subur."
+    },
+    {
+        "id": 10,
+        "name": "Khodam Laut",
+        "power": "Pengendalian Laut",
+        "element": "Laut",
+        "origin": "Samudra",
+        "description": "Khodam yang memiliki kemampuan untuk mengendalikan elemen laut. Biasanya ditemukan di samudra atau daerah pesisir."
+    },
+    {
+        "id": 11,
+        "name": "Khodam Matahari",
+        "power": "Penguasa Sinar Matahari",
+        "element": "Matahari",
+        "origin": "Langit",
+        "description": "Khodam yang memiliki kekuatan untuk mengendalikan sinar matahari. Biasanya ditemukan di langit terbuka atau daerah tropis yang terpapar sinar matahari langsung."
+    },
+    {
+        "id": 12,
+        "name": "Khodam Bulan",
+        "power": "Pengaruh Bulan",
+        "element": "Bulan",
+        "origin": "Langit Malam",
+        "description": "Khodam yang memiliki kemampuan untuk memanipulasi pengaruh bulan terhadap manusia dan alam. Biasanya ditemukan di langit malam atau tempat dengan pandangan terbuka ke langit."
+    },
+    {
+        "id": 13,
+        "name": "Khodam Bintang",
+        "power": "Pengendalian Bintang",
+        "element": "Bintang",
+        "origin": "Antariksa",
+        "description": "Khodam yang memiliki kekuatan untuk mengendalikan gerak dan cahaya bintang. Biasanya ditemukan di daerah terbuka atau observatorium."
+    },
+    {
+        "id": 14,
+        "name": "Khodam Es",
+        "power": "Pengendalian Es",
+        "element": "Es",
+        "origin": "Daerah Kutub",
+        "description": "Khodam yang memiliki kemampuan untuk mengendalikan dan membentuk es. Biasanya ditemukan di daerah kutub atau tempat dengan suhu sangat rendah."
+    },
+    {
+        "id": 15,
+        "name": "Khodam Awan",
+        "power": "Manipulasi Awan",
+        "element": "Awan",
+        "origin": "Atmosfer",
+        "description": "Khodam yang memiliki kekuatan untuk memanipulasi dan mengendalikan pergerakan awan. Biasanya ditemukan di atmosfer atau tempat dengan aktivitas cuaca yang tinggi."
+    },
+    {
+        "id": 16,
+        "name": "Khodam Aurora",
+        "power": "Pengendalian Aurora",
+        "element": "Aurora",
+        "origin": "Kutub Utara dan Selatan",
+        "description": "Khodam yang memiliki kemampuan untuk mengendalikan cahaya aurora. Biasanya ditemukan di daerah kutub utara dan selatan pada malam hari."
+    },
+    {
+        "id": 17,
+        "name": "Khodam Magnet",
+        "power": "Manipulasi Medan Magnet",
+        "element": "Magnet",
+        "origin": "Inti Bumi",
+        "description": "Khodam yang memiliki kekuatan untuk memanipulasi medan magnet bumi. Biasanya ditemukan di dalam inti bumi atau tempat dengan aktivitas geologi yang tinggi."
+    },
+    {
+        "id": 18,
+        "name": "Khodam Kristal",
+        "power": "Pengendalian Kristal",
+        "element": "Kristal",
+        "origin": "Dalam Bumi",
+        "description": "Khodam yang memiliki kemampuan untuk mengendalikan energi kristal. Biasanya ditemukan di dalam bumi atau tempat dengan formasi batuan kristal."
+    },
+    {
+        "id": 19,
+        "name": "Khodam Panas Bumi",
+        "power": "Pengendalian Panas Bumi",
+        "element": "Panas Bumi",
+        "origin": "Lempeng Tektonik",
+        "description": "Khodam yang memiliki kekuatan untuk mengendalikan panas bumi dan aktivitas geotermal. Biasanya ditemukan di lempeng tektonik atau daerah dengan aktivitas vulkanik."
+    },
+    {
+        "id": 20,
+        "name": "Khodam Hujan",
+        "power": "Pengendalian Hujan",
+        "element": "Hujan",
+        "origin": "Langit",
+        "description": "Khodam yang memiliki kemampuan untuk mengendalikan curah hujan. Biasanya ditemukan di langit atau tempat-tempat dengan iklim basah."
+    },
+    {
+        "id": 101,
+        "name": "Khodam Pancake",
+        "power": "Pengendalian Rasa Manis",
+        "element": "Makanan",
+        "origin": "Dapur",
+        "description": "Khodam yang memiliki kekuatan untuk mengendalikan rasa manis. Biasanya ditemukan di dapur atau tempat-tempat dengan aroma makanan yang menggugah selera."
+    },
+    {
+        "id": 102,
+        "name": "Khodam Tikus Kangguru",
+        "power": "Lompatan Luar Biasa",
+        "element": "Tikus dan Kangguru",
+        "origin": "Hutan Terlarang",
+        "description": "Khodam yang memiliki kemampuan untuk melompat jarak jauh layaknya kangguru dan kecepatan tinggi seperti tikus. Biasanya ditemukan di hutan terlarang atau daerah yang jarang dijamah manusia."
+    },
+    {
+        "id": 103,
+        "name": "Khodam Sosis Supernova",
+        "power": "Ekspansi Berlimpah",
+        "element": "Sosis dan Bintang",
+        "origin": "Luar Angkasa",
+        "description": "Khodam yang memiliki kemampuan untuk memperluas diri seperti ekspansi supernova. Biasanya ditemukan di luar angkasa atau dalam eksperimen fisika ekstrem."
+    },
+    {
+        "id": 104,
+        "name": "Khodam Pisang Meledak",
+        "power": "Ledakan Energi Pisang",
+        "element": "Pisang",
+        "origin": "Laboratorium Buah-buahan",
+        "description": "Khodam yang memiliki kekuatan untuk menyebabkan ledakan energi dari pisang. Biasanya ditemukan di laboratorium buah-buahan atau dalam penelitian nutrisi."
+    },
+    {
+        "id": 105,
+        "name": "Khodam Kacang Polong Galaksi",
+        "power": "Pengelolaan Energi Polong",
+        "element": "Kacang Polong",
+        "origin": "Galaksi Kedelai",
+        "description": "Khodam yang memiliki kemampuan untuk mengelola energi dari kacang polong galaksi. Biasanya ditemukan di galaksi kedelai atau dalam eksplorasi bahan pangan alternatif."
+    },
+    {
+        "id": 106,
+        "name": "Khodam Donat Nebula",
+        "power": "Transformasi Kosmik",
+        "element": "Donat",
+        "origin": "Nebula Donat",
+        "description": "Khodam yang memiliki kekuatan untuk melakukan transformasi kosmik seperti donat yang bervariasi. Biasanya ditemukan di nebula donat atau dalam studi kosmik unik."
+    },
+    {
+        "id": 107,
+        "name": "Khodam Durian Galaktik",
+        "power": "Aroma Tidak Terbantahkan",
+        "element": "Durian",
+        "origin": "Galaksi Rasa",
+        "description": "Khodam yang memiliki kemampuan untuk mengeluarkan aroma tidak terbantahkan dari durian galaktik. Biasanya ditemukan di galaksi rasa atau dalam eksplorasi buah-buahan eksotis."
+    },
+    {
+        "id": 108,
+        "name": "Khodam Roti Keju Planetarium",
+        "power": "Kombinasi Gastronomi",
+        "element": "Roti dan Keju",
+        "origin": "Planetarium Kuliner",
+        "description": "Khodam yang memiliki kekuatan untuk menciptakan kombinasi gastronomi dari roti dan keju di planetarium kuliner. Biasanya ditemukan di planetarium kuliner atau dalam eksperimen rasa yang unik."
+    },
+    {
+        "id": 109,
+        "name": "Khodam Es Krim Anti-Gravitasi",
+        "power": "Levitasi Kecil",
+        "element": "Es Krim",
+        "origin": "Laboratorium Manis",
+        "description": "Khodam yang memiliki kemampuan untuk menyebabkan levitasi kecil dari es krim. Biasanya ditemukan di laboratorium manis atau dalam studi fenomena anti-gravitasi."
+    },
+    {
+        "id": 110,
+        "name": "Khodam Terong Magis",
+        "power": "Kemampuan Ajaib Terong",
+        "element": "Terong",
+        "origin": "Kebun Sihir",
+        "description": "Khodam yang memiliki kekuatan untuk memanfaatkan kemampuan ajaib dari terong. Biasanya ditemukan di kebun sihir atau dalam praktik pertanian yang inovatif."
+    },
+    {
+        "id": 111,
+        "name": "Khodam Roti Cinta",
+        "power": "Pengaruh Kasih Sayang",
+        "element": "Roti",
+        "origin": "Panas Roti",
+        "description": "Khodam yang memiliki kekuatan untuk mempengaruhi kasih sayang melalui aroma roti. Biasanya ditemukan di tempat-tempat dengan aroma panas roti yang menggoda."
+    },
+    {
+        "id": 112,
+        "name": "Khodam Tiramisiu Transcendent",
+        "power": "Transcendent Coffee",
+        "element": "Tiramisu",
+        "origin": "Dessert Haven",
+        "description": "Khodam yang memiliki kekuatan untuk memberikan energi transcendental melalui tiramisu. Biasanya ditemukan di tempat yang disebut surga pencuci mulut."
+    },
+    {
+        "id": 113,
+        "name": "Khodam Spaghetti Kebahagiaan",
+        "power": "Kebahagiaan Dalam Pasta",
+        "element": "Spaghetti",
+        "origin": "Italia Mistis",
+        "description": "Khodam yang memiliki kekuatan untuk membawa kebahagiaan melalui spaghetti. Biasanya ditemukan di restoran Italia yang dipercaya."
+    },
+    {
+        "id": 114,
+        "name": "Khodam Telur Terbang",
+        "power": "Telur Terbang",
+        "element": "Telur",
+        "origin": "Rumah Peternakan",
+        "description": "Khodam yang memiliki kemampuan untuk membuat telur terbang. Biasanya ditemukan di peternakan yang penuh kejutan."
+    },
+    {
+        "id": 115,
+        "name": "Khodam Pizza Multiversum",
+        "power": "Multiverse Toppings",
+        "element": "Pizza",
+        "origin": "Pizza Cosmos",
+        "description": "Khodam yang memiliki kemampuan untuk menciptakan topping multiversum di pizza. Biasanya ditemukan di warung pizza yang eksperimental."
+    },
+    {
+        "id": 116,
+        "name": "Khodam Burger Lumba-Lumba",
+        "power": "Burger Lumba-Lumba",
+        "element": "Burger",
+        "origin": "Laut Dalam",
+        "description": "Khodam yang memiliki kekuatan untuk menciptakan burger dengan cita rasa lumba-lumba. Biasanya ditemukan di restoran bawah air."
+    },
+    {
+        "id": 117,
+        "name": "Khodam Kue Sus Misterius",
+        "power": "Misteri Kue Sus",
+        "element": "Kue Sus",
+        "origin": "Toko Kue Tersembunyi",
+        "description": "Khodam yang memiliki kekuatan untuk menghadirkan misteri melalui kue sus. Biasanya ditemukan di toko kue yang tersembunyi dari pandangan umum."
+    },
+    {
+        "id": 118,
+        "name": "Khodam Spaghetti Bolognese Berlari",
+        "power": "Lari Menuju Pasta",
+        "element": "Spaghetti",
+        "origin": "Maraton Makaroni",
+        "description": "Khodam yang memiliki kemampuan untuk berlari menuju pasta bolognese. Biasanya ditemukan di acara lari makanan."
+    },
+    {
+        "id": 119,
+        "name": "Khodam Nasi Goreng Galaksi",
+        "power": "Rasa Nasi Goreng",
+        "element": "Nasi Goreng",
+        "origin": "Bumi Warung",
+        "description": "Khodam yang memiliki kekuatan untuk membuat rasa nasi goreng dari berbagai galaksi. Biasanya ditemukan di warung nasi goreng yang unik."
+    },
+    {
+        "id": 120,
+        "name": "Khodam Cheesecake Cosmos",
+        "power": "Kelezatan Cheesecake",
+        "element": "Cheesecake",
+        "origin": "Penjelajah Rasa",
+        "description": "Khodam yang memiliki kemampuan untuk membawa kelezatan cheesecake dari cosmos. Biasanya ditemukan di tempat eksplorasi rasa."
+    },
+    {
+        "id": 121,
+        "name": "Khodam Es Krim Lompatan Dimensi",
+        "power": "Lompatan Dimensi Rasa",
+        "element": "Es Krim",
+        "origin": "Laboratorium Es Krim",
+        "description": "Khodam yang memiliki kekuatan untuk melakukan lompatan dimensi rasa melalui es krim. Biasanya ditemukan di laboratorium es krim eksperimental."
+    },
+    {
+        "id": 122,
+        "name": "Khodam Martabak Misterius",
+        "power": "Misteri Martabak",
+        "element": "Martabak",
+        "origin": "Gerobak Rahasia",
+        "description": "Khodam yang memiliki kemampuan untuk menghadirkan misteri melalui martabak. Biasanya ditemukan di gerobak rahasia di pinggir jalan."
+    },
+    {
+        "id": 123,
+        "name": "Khodam Sushi Super Nova",
+        "power": "Supernova Sushi",
+        "element": "Sushi",
+        "origin": "Dapur Kosmik",
+        "description": "Khodam yang memiliki kekuatan supernova dari sushi. Biasanya ditemukan di dapur kosmik di luar angkasa."
+    },
+    {
+        "id": 124,
+        "name": "Khodam Sandwich Galaksi",
+        "power": "Rasa Lintas Galaksi",
+        "element": "Sandwich",
+        "origin": "Stasiun Makanan",
+        "description": "Khodam yang memiliki kemampuan untuk menyajikan rasa lintas galaksi melalui sandwich. Biasanya ditemukan di stasiun makanan di ruang angkasa."
+    },
+    {
+        "id": 125,
+        "name": "Khodam Es Krim Meledak",
+        "power": "Es Krim Eksplosif",
+        "element": "Es Krim",
+        "origin": "Laboratorium Manis",
+        "description": "Khodam yang memiliki kekuatan untuk menciptakan es krim yang meledak dengan rasa. Biasanya ditemukan di laboratorium manis dalam percobaan es krim."
+    },
+    {
+        "id": 126,
+        "name": "Khodam Hot Dog Hantu",
+        "power": "Hot Dog Menakutkan",
+        "element": "Hot Dog",
+        "origin": "Festival Hantu",
+        "description": "Khodam yang memiliki kemampuan untuk menakut-nakuti orang dengan hot dog. Biasanya ditemukan di festival hantu di malam Halloween."
+    },
+    {
+        "id": 127,
+        "name": "Khodam Roti Bakar Bintang",
+        "power": "Bakar Bintang",
+        "element": "Roti Bakar",
+        "origin": "Dapur Stargazer",
+        "description": "Khodam yang memiliki kekuatan untuk memanggang bintang di roti bakar. Biasanya ditemukan di dapur stargazer yang eksentrik."
+    },
+    {
+        "id": 128,
+        "name": "Khodam Donat Fantasi",
+        "power": "Fantasi Manis",
+        "element": "Donat",
+        "origin": "Panggung Manis",
+        "description": "Khodam yang memiliki kemampuan untuk menghidupkan donat dengan fantasi manis. Biasanya ditemukan di panggung manis di festival makanan."
+    },
+    {
+        "id": 129,
+        "name": "Khodam Burger Bumi",
+        "power": "Burger Global",
+        "element": "Burger",
+        "origin": "Warung Lantai Bumi",
+        "description": "Khodam yang memiliki kekuatan untuk menyediakan burger dari semua bagian dunia. Biasanya ditemukan di warung burger dengan lantai bumi."
+    },
+    {
+        "id": 130,
+        "name": "Khodam Tiramisu Terbang",
+        "power": "Tiramisu Terbang",
+        "element": "Tiramisu",
+        "origin": "Lautan Es",
+        "description": "Khodam yang memiliki kemampuan untuk membuat tiramisu terbang di laut es. Biasanya ditemukan di daerah yang disebut lautan es dalam legenda."
+    },
+    {
+        "id": 131,
+        "name": "Khodam Spaghetti Paranormal",
+        "power": "Paranormal Pasta",
+        "element": "Spaghetti",
+        "origin": "Kampung Gaib",
+        "description": "Khodam yang memiliki kekuatan paranormal melalui spaghetti. Biasanya ditemukan di kampung gaib yang terkenal akan makanan ajaib."
+    },
+    {
+        "id": 132,
+        "name": "Khodam Telur Raksasa",
+        "power": "Telur Besar",
+        "element": "Telur",
+        "origin": "Toko Telur Gergasi",
+        "description": "Khodam yang memiliki kemampuan untuk menciptakan telur raksasa. Biasanya ditemukan di toko telur gergasi di cerita rakyat."
+    },
+    {
+        "id": 133,
+        "name": "Khodam Pizza Astro",
+        "power": "Astro Topping",
+        "element": "Pizza",
+        "origin": "Planet Pizza",
+        "description": "Khodam yang memiliki kemampuan untuk menyajikan pizza dengan topping astro. Biasanya ditemukan di planet pizza di ujung tata surya."
+    },
+    {
+        "id": 134,
+        "name": "Khodam Burger Astral",
+        "power": "Burger Astral",
+        "element": "Burger",
+        "origin": "Burger Galaxy",
+        "description": "Khodam yang memiliki kekuatan untuk menciptakan burger dari galaksi burger. Biasanya ditemukan di galaksi burger di seberang ruang angkasa."
+    },
+    {
+        "id": 135,
+        "name": "Khodam Kue Sus Serba Bisa",
+        "power": "Segala Guna Kue Sus",
+        "element": "Kue Sus",
+        "origin": "Gerai Sihir",
+        "description": "Khodam yang memiliki kekuatan untuk mengubah kue sus menjadi segala sesuatu. Biasanya ditemukan di gerai sihir yang eksklusif."
+    },
+    {
+        "id": 136,
+        "name": "Khodam Spaghetti Kosmik",
+        "power": "Spaghetti Kosmik",
+        "element": "Spaghetti",
+        "origin": "Dapur Kosmos",
+        "description": "Khodam yang memiliki kemampuan untuk menyajikan spaghetti dari dapur kosmos. Biasanya ditemukan di eksperimen rasa yang revolusioner."
+    },
+    {
+        "id": 137,
+        "name": "Khodam Nasi Goreng Fantasi",
+        "power": "Fantasi Nasi Goreng",
+        "element": "Nasi Goreng",
+        "origin": "Warung Ajaib",
+        "description": "Khodam yang memiliki kekuatan untuk membawa nasi goreng ke dalam dunia fantasi. Biasanya ditemukan di warung ajaib yang tak terduga."
+    },
+    {
+        "id": 138,
+        "name": "Khodam Cheesecake Bumi",
+        "power": "Cheesecake Bumi",
+        "element": "Cheesecake",
+        "origin": "Planet Kue",
+        "description": "Khodam yang memiliki kemampuan untuk menyediakan cheesecake dari planet kue. Biasanya ditemukan di planet kue yang penuh kelezatan."
+    },
+    {
+        "id": 139,
+        "name": "Khodam Es Krim Kelabu",
+        "power": "Es Krim Aneh",
+        "element": "Es Krim",
+        "origin": "Laboratorium Ajaib",
+        "description": "Khodam yang memiliki kemampuan untuk menciptakan es krim dengan rasa yang aneh. Biasanya ditemukan di laboratorium ajaib di tengah hutan."
+    },
+    {
+        "id": 140,
+        "name": "Khodam Hot Dog Misterius",
+        "power": "Misteri Hot Dog",
+        "element": "Hot Dog",
+        "origin": "Gerobak Rahasia",
+        "description": "Khodam yang memiliki kekuatan untuk menyajikan hot dog dengan misteri di gerobak rahasia. Biasanya ditemukan di tempat-tempat terpencil yang terkenal akan makanan ajaib."
+    },
+    {
+        "id": 141,
+        "name": "Khodam Roti Bakar Terbang",
+        "power": "Roti Bakar Terbang",
+        "element": "Roti Bakar",
+        "origin": "Langit Panas",
+        "description": "Khodam yang memiliki kemampuan untuk memanggang roti bakar di langit panas. Biasanya ditemukan di tempat yang penuh dengan energi panas."
+    },
+    {
+        "id": 142,
+        "name": "Khodam Donat Aneh",
+        "power": "Donat Aneh",
+        "element": "Donat",
+        "origin": "Panggung Misteri",
+        "description": "Khodam yang memiliki kemampuan untuk menyajikan donat dengan rasa yang sangat aneh. Biasanya ditemukan di panggung misteri di tengah kota."
+    },
+    {
+        "id": 143,
+        "name": "Khodam Burger Gaib",
+        "power": "Burger Gaib",
+        "element": "Burger",
+        "origin": "Warung Tersembunyi",
+        "description": "Khodam yang memiliki kekuatan untuk menyajikan burger dari warung yang gaib. Biasanya ditemukan di warung tersembunyi di balik lorong-lorong kota."
+    },
+    {
+        "id": 144,
+        "name": "Khodam Tiramisu Terbang",
+        "power": "Tiramisu Terbang",
+        "element": "Tiramisu",
+        "origin": "Lautan Es",
+        "description": "Khodam yang memiliki kemampuan untuk membuat tiramisu terbang di laut es. Biasanya ditemukan di daerah yang disebut lautan es dalam legenda."
+    },
+    {
+        "id": 145,
+        "name": "Khodam Spaghetti Paranormal",
+        "power": "Paranormal Pasta",
+        "element": "Spaghetti",
+        "origin": "Kampung Gaib",
+        "description": "Khodam yang memiliki kekuatan paranormal melalui spaghetti. Biasanya ditemukan di kampung gaib yang terkenal akan makanan ajaib."
+    },
+    {
+        "id": 146,
+        "name": "Khodam Telur Raksasa",
+        "power": "Telur Besar",
+        "element": "Telur",
+        "origin": "Toko Telur Gergasi",
+        "description": "Khodam yang memiliki kemampuan untuk menciptakan telur raksasa. Biasanya ditemukan di toko telur gergasi di cerita rakyat."
+    },
+    {
+        "id": 147,
+        "name": "Khodam Pizza Astro",
+        "power": "Astro Topping",
+        "element": "Pizza",
+        "origin": "Planet Pizza",
+        "description": "Khodam yang memiliki kemampuan untuk menyajikan pizza dengan topping astro. Biasanya ditemukan di planet pizza di ujung tata surya."
+    },
+    {
+        "id": 148,
+        "name": "Khodam Burger Astral",
+        "power": "Burger Astral",
+        "element": "Burger",
+        "origin": "Burger Galaxy",
+        "description": "Khodam yang memiliki kekuatan untuk menciptakan burger dari galaksi burger. Biasanya ditemukan di galaksi burger di seberang ruang angkasa."
+    },
+    {
+        "id": 149,
+        "name": "Khodam Kue Sus Serba Bisa",
+        "power": "Segala Guna Kue Sus",
+        "element": "Kue Sus",
+        "origin": "Gerai Sihir",
+        "description": "Khodam yang memiliki kekuatan untuk mengubah kue sus menjadi segala sesuatu. Biasanya ditemukan di gerai sihir yang eksklusif."
+    },
+    {
+        "id": 150,
+        "name": "Khodam Es Krim Kelabu",
+        "power": "Es Krim Aneh",
+        "element": "Es Krim",
+        "origin": "Laboratorium Ajaib",
+        "description": "Khodam yang memiliki kemampuan untuk menciptakan es krim dengan rasa yang aneh. Biasanya ditemukan di laboratorium ajaib di tengah hutan."
+    },
+    {
+        "id": 151,
+        "name": "Khodam Hot Dog Misterius",
+        "power": "Misteri Hot Dog",
+        "element": "Hot Dog",
+        "origin": "Gerobak Rahasia",
+        "description": "Khodam yang memiliki kekuatan untuk menyajikan hot dog dengan misteri di gerobak rahasia. Biasanya ditemukan di tempat-tempat terpencil yang terkenal akan makanan ajaib."
+    },
+    {
+        "id": 152,
+        "name": "Khodam Roti Bakar Terbang",
+        "power": "Roti Bakar Terbang",
+        "element": "Roti Bakar",
+        "origin": "Langit Panas",
+        "description": "Khodam yang memiliki kemampuan untuk memanggang roti bakar di langit panas. Biasanya ditemukan di tempat yang penuh dengan energi panas."
+    },
+    {
+        "id": 153,
+        "name": "Khodam Donat Aneh",
+        "power": "Donat Aneh",
+        "element": "Donat",
+        "origin": "Panggung Misteri",
+        "description": "Khodam yang memiliki kemampuan untuk menyajikan donat dengan rasa yang sangat aneh. Biasanya ditemukan di panggung misteri di tengah kota."
+    },
+    {
+        "id": 154,
+        "name": "Khodam Burger Gaib",
+        "power": "Burger Gaib",
+        "element": "Burger",
+        "origin": "Warung Tersembunyi",
+        "description": "Khodam yang memiliki kekuatan untuk menyajikan burger dari warung yang gaib. Biasanya ditemukan di warung tersembunyi di balik lorong-lorong kota."
+    },
+    {
+        "id": 155,
+        "name": "Khodam Tiramisu Terbang",
+        "power": "Tiramisu Terbang",
+        "element": "Tiramisu",
+        "origin": "Lautan Es",
+        "description": "Khodam yang memiliki kemampuan untuk membuat tiramisu terbang di laut es. Biasanya ditemukan di daerah yang disebut lautan es dalam legenda."
+    },
+    {
+        "id": 156,
+        "name": "Khodam Spaghetti Paranormal",
+        "power": "Paranormal Pasta",
+        "element": "Spaghetti",
+        "origin": "Kampung Gaib",
+        "description": "Khodam yang memiliki kekuatan paranormal melalui spaghetti. Biasanya ditemukan di kampung gaib yang terkenal akan makanan ajaib."
+    },
+    {
+        "id": 157,
+        "name": "Khodam Telur Raksasa",
+        "power": "Telur Besar",
+        "element": "Telur",
+        "origin": "Toko Telur Gergasi",
+        "description": "Khodam yang memiliki kemampuan untuk menciptakan telur raksasa. Biasanya ditemukan di toko telur gergasi di cerita rakyat."
+    },
+    {
+        "id": 158,
+        "name": "Khodam Pizza Astro",
+        "power": "Astro Topping",
+        "element": "Pizza",
+        "origin": "Planet Pizza",
+        "description": "Khodam yang memiliki kemampuan untuk menyajikan pizza dengan topping astro. Biasanya ditemukan di planet pizza di ujung tata surya."
+    },
+    {
+        "id": 159,
+        "name": "Khodam Burger Astral",
+        "power": "Burger Astral",
+        "element": "Burger",
+        "origin": "Burger Galaxy",
+        "description": "Khodam yang memiliki kekuatan untuk menciptakan burger dari galaksi burger. Biasanya ditemukan di galaksi burger di seberang ruang angkasa."
+    },
+    {
+        "id": 160,
+        "name": "Khodam Kue Sus Serba Bisa",
+        "power": "Segala Guna Kue Sus",
+        "element": "Kue Sus",
+        "origin": "Gerai Sihir",
+        "description": "Khodam yang memiliki kekuatan untuk mengubah kue sus menjadi segala sesuatu. Biasanya ditemukan di gerai sihir yang eksklusif."
+    },
+    {
+        "id": 161,
+        "name": "Khodam Es Krim Kelabu",
+        "power": "Es Krim Aneh",
+        "element": "Es Krim",
+        "origin": "Laboratorium Ajaib",
+        "description": "Khodam yang memiliki kemampuan untuk menciptakan es krim dengan rasa yang aneh. Biasanya ditemukan di laboratorium ajaib di tengah hutan."
+    },
+    {
+        "id": 162,
+        "name": "Khodam Hot Dog Misterius",
+        "power": "Misteri Hot Dog",
+        "element": "Hot Dog",
+        "origin": "Gerobak Rahasia",
+        "description": "Khodam yang memiliki kekuatan untuk menyajikan hot dog dengan misteri di gerobak rahasia. Biasanya ditemukan di tempat-tempat terpencil yang terkenal akan makanan ajaib."
+    },
+    {
+        "id": 163,
+        "name": "Khodam Roti Bakar Terbang",
+        "power": "Roti Bakar Terbang",
+        "element": "Roti Bakar",
+        "origin": "Langit Panas",
+        "description": "Khodam yang memiliki kemampuan untuk memanggang roti bakar di langit panas. Biasanya ditemukan di tempat yang penuh dengan energi panas."
+    },
+    {
+        "id": 164,
+        "name": "Khodam Donat Aneh",
+        "power": "Donat Aneh",
+        "element": "Donat",
+        "origin": "Panggung Misteri",
+        "description": "Khodam yang memiliki kemampuan untuk menyajikan donat dengan rasa yang sangat aneh. Biasanya ditemukan di panggung misteri di tengah kota."
+    },
+    {
+        "id": 165,
+        "name": "Khodam Burger Gaib",
+        "power": "Burger Gaib",
+        "element": "Burger",
+        "origin": "Warung Tersembunyi",
+        "description": "Khodam yang memiliki kekuatan untuk menyajikan burger dari warung yang gaib. Biasanya ditemukan di warung tersembunyi di balik lorong-lorong kota."
+    }
+]

@@ -18,6 +18,9 @@ interface Root {
 export default function RootLayout({ children }: Readonly<Root>) {
   return (
     <html lang="en">
+      <head>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      </head>
       <body className={roboto.className}>
         {children}
         <LoadingPage />

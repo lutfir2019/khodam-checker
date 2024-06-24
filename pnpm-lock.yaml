@@ -40,6 +40,9 @@ devDependencies:
   react-icons:
     specifier: ^5.2.0
     version: 5.2.0(react@18.3.1)
+  sweetalert2:
+    specifier: ^11.12.0
+    version: 11.12.0
   tailwindcss:
     specifier: ^3.4.1
     version: 3.4.3
@@ -1038,6 +1041,10 @@ packages:
   /supports-preserve-symlinks-flag@1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+    dev: true
+
+  /sweetalert2@11.12.0:
+    resolution: {integrity: sha512-Fe6sitTNReNdPF1q1w4uz1GAVv9acZff9Q7YILH5n6O/ti3MzwgfEA0aQ6tLjpy+O1NLXnZjUE//xrbluGXzJw==}
     dev: true
 
   /tailwindcss@3.4.3:
