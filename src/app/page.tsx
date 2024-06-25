@@ -1,6 +1,5 @@
 "use client";
 
-import Image from 'next/image'
 import Swal from "sweetalert2";
 import * as yup from "yup";
 import { useFormik } from "formik";
@@ -114,10 +113,8 @@ export default function Home() {
               className="flex flex-col w-[300px] lg:w-[400px] rounded-xl bg-white border border-gray-100 p-5"
             >
               <div className="relative flex-shrink-0 mb-5 h-[250px]">
-                <Image
+                <img
                   src={`https://picsum.photos/id/${dataKhodam.id}/200/300`}
-                  width={200}
-                  height={300}
                   alt={dataKhodam.name}
                   className="object-cover w-full h-full rounded-lg"
                 />
