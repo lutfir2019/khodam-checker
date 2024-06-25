@@ -1,5 +1,6 @@
 "use client";
 
+import Image from 'next/image'
 import Swal from "sweetalert2";
 import * as yup from "yup";
 import { useFormik } from "formik";
@@ -37,7 +38,7 @@ export default function Home() {
         power: "-",
         element: "-",
       };
-      const khodam = dataSet?.[Math.floor(Math.random() * 160)] ?? khodamKosong;
+      const khodam = dataSet?.[Math.floor(Math.random() * 100 + values.name?.length)] ?? khodamKosong;
       setDataKhodam(khodam);
       Swal.fire({
         title: `Hai ${values.name}, Khodam anda adalah ${khodam.name}`,
@@ -113,8 +114,10 @@ export default function Home() {
               className="flex flex-col w-[300px] lg:w-[400px] rounded-xl bg-white border border-gray-100 p-5"
             >
               <div className="relative flex-shrink-0 mb-5 h-[250px]">
-                <img
+                <Image
                   src={`https://picsum.photos/id/${dataKhodam.id}/200/300`}
+                  width={200}
+                  height={300}
                   alt={dataKhodam.name}
                   className="object-cover w-full h-full rounded-lg"
                 />
