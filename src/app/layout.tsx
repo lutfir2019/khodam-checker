@@ -9,7 +9,7 @@ const roboto = Roboto({ subsets: ["latin"], weight: "400" });
 export const metadata: Metadata = {
   title: "Khodam Checker",
   description: "Cek Khodam anda dan miliki teman pendamping",
-  keywords: ["nextjs", "react", "formik", "typescript", "yup", "react query"],
+  keywords: ["mystic", "horor", "khodam", "cek khodam", "check", "check khodam", "cek kodam", "vercel", "nextjs", "react", "jin", "pendamping", "makhluk", "makhluk halus", "jin pendamping"],
 };
 
 interface Root {
